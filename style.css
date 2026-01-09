@@ -410,29 +410,9 @@ body {
   margin-top: 16PX;
 }
 
-
-.readyToThink-section button {
-  width: 194px; 
-  height: 52px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #2fa66a;
-  color: #ffffff;
-  font-size: 14px;
-  font-weight: 600;
-  border: none;
-  border-radius: 8px;
-  cursor: pointer;
-  box-shadow: 0 2px 8px rgba(47, 166, 106, 0.25);
-}
-
 .early-btn {
   width: 194px; 
   height: 52px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   padding: 16px 12px;
   background: #2fa66a;
   box-shadow: 0 2px 8px rgba(47, 166, 106, 0.25);
@@ -446,5 +426,5 @@ body {
 }
 
 .early-btn:hover {
-  background: #26935f;
+  background: #192921;
 }
