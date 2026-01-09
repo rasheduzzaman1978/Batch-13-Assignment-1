@@ -276,7 +276,9 @@ body {
   justify-content: space-between;
   align-items: center;
   max-width: 1360px;
-  margin: 102px;
+  margin: 0 auto;
+
+  /* margin: 102px; */
   align-items: center;
   gap: 60px;
   /* border: 1px solid green; */
