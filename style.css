@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", Arial, sans-serif;
+}
+
+/* Navbar style start*/
+.navbar {
+  height: 92px;
+  width: 100%;
+  padding: 0 120px;
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  border-bottom: 1px solid #eaeaea;
+}
+
+/* Left: Logo */
+.logo {
+  display: flex;
+  align-items: center;
+  width: 164px; 
+}
+
+.logo img {
+  height: 44px;
+  width: auto;
+}
+
+
+.nav-links {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  flex: 1; 
+}
+
+.nav-item {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  color: #374151;
+}
+
+/* Right: Button */
+.navbar button {
+  width: 164px; 
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #2fa66a;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(47, 166, 106, 0.25);
+}
+
+.navbar button:hover {
+  background-color: #2e684c;
+}
+
+/* Navbar style end. */
+
+/* Hero section style start*/
+
+.hero-section {
+  background: url('./assets/hero-bg.png');
+  width: 100%;
+  height: 674px;
+}
